@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("racing.gif");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    margin-top: 30px;
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h4
+{
+	color: white !important;
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Carrera de autos</title>
+</head>
+<body onload="add()">
+
+<center>
+<h1>Carrera de autos</h1>
+<h1>Estatus del juego : <span id="game_status"></span></h1>
+<!-- Corrige el nombre de identificación del lienzo (canvas). escribe: canvas id = "myCanvas" -->
+	<canvas id = "myCanvas" width="800" height="600">
+	</canvas>
+<h4>
+	<b class="text-danger">NOTA : </b> SI NO SE VEN LOS AUTOS, PRESIONA CUALQUIERA DE LAS FLECHAS
+</h4>
+
+</center>
+</body>
+
+<script src="C90_Student_Template.js" type="text/javascript"></script>
+
+</html>
